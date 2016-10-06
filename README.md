@@ -112,9 +112,9 @@ details[open] > *:not(summary) {
 }
 ```
 
-The polyfill does not preserve the child elements layout when toggeling the details.
+The polyfill does not preserve the child elements layout when toggling the details.
 Also, there is no guarantee that a browser's native implementation of the ```<details>``` element will
-respect it's child elements layout when toggeling the details. To preserve the child elements layout,
+respect it's child elements layout when toggling the details. To preserve the child elements layout,
 you should always wrap the child elements inside a block element, e.g. ```<div>, <article>, <section>``` etc.
 
 ```html
